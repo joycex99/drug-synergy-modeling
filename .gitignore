@@ -1,3 +1,9 @@
 __pychache__
 Drug_synergy_data/
 Sanger_molecular_data/
+Converted_data/
+.ipynb_checkpoints/
+
+tumor_supressors_tsgeneDB.csv
+Clean_data/train_full_reorganized.csv
+Combined_data/drugInfo_combined_dummy.csv
