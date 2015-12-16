@@ -16,6 +16,8 @@ def mape(y_pred, y_true):
 
 # Percent of predictions within a certain value to true value
 def error_within(epsilon, y_pred, y_true):
-    within = np.absolute(y_true-y_pred) < epsilon
+    #within = np.absolute(y_true-y_pred) < epsilon
+    #return np.sum(within)/within.size
+    within = np.absolute((y_true-y_pred)/y_true) < epsilon * y_true
     return np.sum(within)/within.size
     
