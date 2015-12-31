@@ -2,11 +2,13 @@ __pychache__/
 Drug_synergy_data/
 Sanger_molecular_data/
 Drug_expanded/
-Molecular_expanded
+Biogrid/
+Molecular_expanded/
 .ipynb_checkpoints/
 
 Clean_data/train_full_reorganized.csv
 Submission/
+Submissions.ipynb
 Untitled.ipynb
 *.txt
 *.cys
