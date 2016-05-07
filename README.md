@@ -10,5 +10,7 @@ Several key components include:
   * Construction of a PPI (protein-protein interaction) network and implementation of a path-searching algorithm to map target interactions to drug interactions
   * Implementation of a genetic algorithm to perform parameter tuning and feature selection 
   
-The model currently achieves ~0.63 average pearson correlation for regression, and a 0.72 average classification accuracy of synergistic vs. non-synergistic 
-compound/compound/cell line combinations (0.67 AUC, 0.79 F1).
+The model currently achieves ~0.66 average pearson correlation for regression, and a 0.73 average classification accuracy of synergistic vs. non-synergistic 
+compound/compound/cell line combinations (0.76 AUC, 0.79 F1). 
+
+When tasked with identifying clinically significant cases of synergy (>30% change integrated over a log2 concentration space), it achieves a classification accuracy of 0.83 and an AUC of 0.79. 
